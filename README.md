@@ -7,7 +7,7 @@ This repository contains my personal Vim configuration optimized for **C/C++ dev
 ## Features
 
 - **Color Schemes & Syntax Highlighting**
-  - Uses `onedark` and `gruvbox` color schemes
+  - Uses `onedark` color scheme
   - Custom highlights for comments, strings, and standard C library functions
   - Light and readable line numbers
 - **Cursor**
@@ -35,11 +35,7 @@ This repository contains my personal Vim configuration optimized for **C/C++ dev
 
 | Mode       | Key              | Action |
 |------------|-----------------|--------|
-| Normal     | `F2`             | Toggle NERDTree |
-| Normal     | `<leader>n`      | Toggle NERDTree (alternative) |
-| Normal     | `<C-n>`          | Toggle NERDTree without stealing focus |
-| Visual     | `Tab` / `Shift+Tab` | Indent / unindent selection |
-| Insert     | `Ctrl-t` / `Ctrl-d` | Indent / unindent line |
+| Normal     | `Ctrl-n`         | Toggle NERDTree |
 | Command    | N/A              | Standard command-line completion preserved |
 
 ---
@@ -60,4 +56,18 @@ This repository contains my personal Vim configuration optimized for **C/C++ dev
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/<your-username>/vim-config.git ~/.vim
+git clone https://github.com/Berry484/VimConfig.git ~/.vim
+```
+
+2. Clone this repository:
+
+```bash
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+3. Open Vim and install plugins
+
+```bash
+:PlugInstall
+```
