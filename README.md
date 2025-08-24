@@ -2,6 +2,7 @@
 
 This repository contains my personal daily drive Vim configuration for **C/C++ development**.
 
+
 ---
 ## Installation
 
@@ -24,6 +25,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 :PlugInstall
 ```
 ---
+
 
 ## Features
 
