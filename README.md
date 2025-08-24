@@ -68,6 +68,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 - [`preservim/nerdtree`](https://github.com/preservim/nerdtree) — File explorer
 - [`joshdick/onedark.vim`](https://github.com/joshdick/onedark.vim) — Color scheme
 - [`itchyny/vim-cursorword`](https://github.com/itchyny/vim-cursorword) — Highlight the word under cursor
+- [`vim-cpp-enhanced-highlight`](https://github.com/octol/vim-cpp-enhanced-highlight) — Better C++ highlighting
 
 ---
 
