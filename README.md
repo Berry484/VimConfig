@@ -1,6 +1,6 @@
 # Vim C/C++ Configuration
 
-This repository contains my personal Vim configuration optimized for **C/C++ development**. It provides a modern, visually friendly setup with efficient editing, navigation, and file management inspired by VS Code.
+This repository contains my personal daily drive Vim configuration for **C/C++ development**.
 
 ---
 
