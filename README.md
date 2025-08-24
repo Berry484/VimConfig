@@ -45,7 +45,6 @@ This repository contains my personal Vim configuration optimized for **C/C++ dev
 - [`tpope/vim-commentary`](https://github.com/tpope/vim-commentary) — Easy commenting
 - [`jiangmiao/auto-pairs`](https://github.com/jiangmiao/auto-pairs) — Auto-closing brackets and quotes
 - [`preservim/nerdtree`](https://github.com/preservim/nerdtree) — File explorer
-- [`morhetz/gruvbox`](https://github.com/morhetz/gruvbox) — Color scheme
 - [`joshdick/onedark.vim`](https://github.com/joshdick/onedark.vim) — Color scheme
 - [`itchyny/vim-cursorword`](https://github.com/itchyny/vim-cursorword) — Highlight the word under cursor
 
