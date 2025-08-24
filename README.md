@@ -58,7 +58,7 @@ This repository contains my personal Vim configuration optimized for **C/C++ dev
 git clone https://github.com/Berry484/VimConfig.git ~/.vim
 ```
 
-2. Clone this repository:
+2. Install [`vim-plug`](https://github.com/junegunn/vim-plug) if not already installed:
 
 ```bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
