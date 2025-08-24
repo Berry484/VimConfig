@@ -1,4 +1,4 @@
-# Vim C/C++ Configuration
+# Vim C Config
 
 This repository contains my personal daily drive Vim configuration for **C/C++ development**.
 
