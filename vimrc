@@ -13,6 +13,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'joshdick/onedark.vim'
 Plug 'itchyny/vim-cursorword'
+Plug 'octol/vim-cpp-enhanced-highlight'
+
 
 call plug#end()
 "--------------------------
@@ -66,6 +68,14 @@ highlight link cFunction Function
 
 " Make comments brighter
 highlight Comment ctermfg=108 guifg=#89b06f
+
+
+"--------------------------
+" Enchanced highlighting
+"--------------------------
+let g:cpp_class_scope_highlight = 1
+let g:cpp_member_highlight = 1
+let g:cpp_experimental_template_highlight = 1
 
 
 "--------------------------
