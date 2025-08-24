@@ -48,10 +48,16 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ## Key Mappings
 
-| Mode       | Key              | Action |
-|------------|-----------------|--------|
-| Normal     | `Ctrl-n`         | Toggle NERDTree |
-| Command    | N/A              | Standard command-line completion preserved |
+| Mode   | Key        | Action |
+|--------|-----------|--------|
+| Normal | `Ctrl-n`   | Toggle NERDTree |
+| Normal | `F9`       | In diff mode: open a new buffer and read `svn diff` |
+| Normal | `Alt-Down` | In diff mode: jump to next diff hunk (`]c`) |
+| Normal | `Alt-Up`   | In diff mode: jump to previous diff hunk (`[c`) |
+| Normal | `Alt-Left` | In diff mode: `do` (get changes from other window) |
+| Normal | `Alt-Right`| In diff mode: `dp` (put changes to other window) |
+| Normal | `Alt-Down` | In spell mode: jump to next spelling error (`]s`) |
+| Normal | `Alt-Up`   | In spell mode: jump to previous spelling error (`[s`) |
 
 ---
 
