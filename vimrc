@@ -73,7 +73,7 @@ highlight Comment ctermfg=108 guifg=#89b06f
 "--------------------------
 autocmd vimenter * NERDTree
 autocmd vimenter * if argc() > 0 | NERDTreeFind | endif
-nnoremap <C-n> :NERDTreeToggle<CR>:wincmd p<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
 
 "--------------------------
 " Tags (for C++ completion/navigation)
