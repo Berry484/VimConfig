@@ -92,22 +92,3 @@ set tags+=~/.vim/tags/cpp
 set tags+=~/.vim/tags/gl
 set tags+=~/.vim/tags/sdl
 set tags+=~/.vim/tags/qt4
-
-"--------------------------
-" Diff / Spell settings
-"--------------------------
-if &diff
-    " Diff mode mappings
-    map <M-Down> ]c
-    map <M-Up> [c
-    map <M-Left> do
-    map <M-Right> dp
-    map <F9> :new<CR>:read !svn diff<CR>:set syntax=diff buftype=nofile<CR>gg
-else
-    " Spell settings
-    setlocal spell spelllang=en
-    set spellfile=~/.vim/spellfile.add
-    map <M-Down> ]s
-    map <M-Up> [s
-endif
-
