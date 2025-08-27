@@ -27,26 +27,18 @@ set termencoding=utf-8
 "--------------------------
 " Basic editing
 "--------------------------
+set autoindent
+set relativenumber
+set number
 set nocompatible        " Disable vi compatibility
-set autoindent          " Use previous line's indentation
 set smartindent         " Smart indentation for C
-set tabstop=4           " Tab width is 4 spaces
 set shiftwidth=4        " Indent also with 4 spaces
+set tabstop=4           " Tab width is 4 spaces
 set expandtab           " Expand tabs to spaces
 set textwidth=120       " Wrap lines at 120 chars
-set number              " Show line numbers
 set showmatch           " Highlight matching braces
 set virtualedit=onemore " Allow cursor beyond end of line in Visual mode
 set t_Co=256            " 256-color support
-
-"--------------------------
-" Cursor
-"--------------------------
-" Normal mode: block cursor
-let &t_EI = "\e[2 q"
-" Insert mode: vertical bar cursor
-let &t_SI = "\e[6 q"
-highlight CursorColumn ctermbg=236 guibg=#2c2c2c
 
 "--------------------------
 " Colorscheme / Appearance
@@ -68,7 +60,6 @@ highlight link cFunction Function
 
 " Make comments brighter
 highlight Comment ctermfg=108 guifg=#89b06f
-
 
 "--------------------------
 " Enchanced highlighting
