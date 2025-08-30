@@ -6,20 +6,26 @@ This repository contains my personal daily drive Vim configuration for **C/C++ d
 ---
 ## Installation
 
-1. Clone this repository:
+1. Download the vimrc file
 
 ```bash
-git clone https://github.com/Berry484/VimConfig.git ~/.vim
+wget https://github.com/Berry484/VimConfig/blob/main/vimrc
 ```
 
-2. Install [`vim-plug`](https://github.com/junegunn/vim-plug) if not already installed:
+2. Move it to correct location
+
+```bash
+mv vimrc ~/.vimrc
+```
+
+3. Install [`vim-plug`](https://github.com/junegunn/vim-plug) if not already installed:
 
 ```bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-3. Open Vim and install plugins
+4. Open Vim and install plugins
 
 ```bash
 :PlugInstall
