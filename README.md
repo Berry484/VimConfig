@@ -88,3 +88,11 @@ sudo apt autoremove
 sudo apt update && sudo apt install vim-nox
 ```
 
+**Helpful notes (macOS)**  
+The default Vim that comes preinstalled on macOS is outdated and missing many features required for plugin managers like **vim-plug**.  
+It’s recommended to install a modern build via [Homebrew](https://brew.sh/):
+
+```bash
+brew install vim
+```
+
