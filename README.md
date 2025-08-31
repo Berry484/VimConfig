@@ -78,4 +78,13 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ---
 
+**Helpful notes (Ubuntu/Debian)**  
+On Ubuntu/Debian, the default Vim package is often a minimal build (`vim-tiny`) that lacks support for plugins like **vim-plug**.  
+To fix this, first uninstall the minimal version, then install a full build such as `vim-nox` or `vim-gtk3`:
+
+```bash
+sudo apt remove --purge vim vim-tiny
+sudo apt autoremove
+sudo apt update && sudo apt install vim-nox
+```
 
