@@ -9,7 +9,8 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-commentary'
-Plug 'jiangmiao/auto-pairs'
+"Plug 'jiangmiao/auto-pairs'
+Plug 'LunarWatcher/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'joshdick/onedark.vim'
 Plug 'itchyny/vim-cursorword'
@@ -23,6 +24,7 @@ call plug#end()
 set enc=utf-8
 set fenc=utf-8
 set termencoding=utf-8
+
 
 "--------------------------
 " Basic editing
