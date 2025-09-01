@@ -9,7 +9,6 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-commentary'
-"Plug 'jiangmiao/auto-pairs'
 Plug 'LunarWatcher/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'joshdick/onedark.vim'
