@@ -31,6 +31,7 @@ set termencoding=utf-8
 set autoindent
 set relativenumber
 set number
+set mouse=a             " Enables basic mouse movement
 set nocompatible        " Disable vi compatibility
 set smartindent         " Smart indentation for C
 set shiftwidth=4        " Indent also with 4 spaces
@@ -61,6 +62,9 @@ highlight link cFunction Function
 
 " Make comments brighter
 highlight Comment ctermfg=108 guifg=#89b06f
+
+" Make the end buffer tildes '~' purple
+highlight NonText ctermfg=61 guifg=#5a4370
 
 "--------------------------
 " Enchanced highlighting
