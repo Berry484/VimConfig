@@ -9,7 +9,7 @@ This repository contains my personal daily drive Vim configuration for **C/C++ d
 1. Download the vimrc file
 
 ```bash
-wget https://raw.githubusercontent.com/fire_kiwi/VimConfig/refs/heads/main/vimrc
+wget https://raw.githubusercontent.com/berry484/VimConfig/refs/heads/main/vimrc
 ```
 
 2. Move it to correct location
